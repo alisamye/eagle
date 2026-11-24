@@ -1,0 +1,55 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Build output
+build/
+dist/
+out/
+target/
+coverage/
+*.log
+
+# Debug artifacts
+*.pid
+*.seed
+*.pid.lock
+*.stackdump
+
+# Environment and local configuration
+.env
+.env.*
+!.env.example
+*.local
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Language caches and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.cache/
+*.class
+*.dll
+*.exe
+*.o
+*.obj
+*.so
+*.dylib
+
+# Package manager and test caches
+.npm/
+.yarn/cache/
+.pnpm-store/
+.tox/
